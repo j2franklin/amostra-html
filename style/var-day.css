@@ -1,0 +1,14 @@
+:root{
+
+    /* colours */
+    --background-colour: white;
+    --colour-paragraph: black;
+    --colour-title: black;
+    --colour-button-border: rgb(33, 28, 58);
+    --colour-button-comprar: orange;
+
+    /* fonts */
+    --font-paragraph: 'Crimson Text', serif;
+    --font-title: 'Crimson Pro', serif;
+    --font-chamada: 'Delicious Handrawn', cursive;
+}

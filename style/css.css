@@ -1,0 +1,124 @@
+body{ 
+    background-color: black; 
+}
+
+main{
+    display: block;
+    width: 100%;
+    background-color: var(--background-colour);
+}
+
+p{
+    text-align: justify;
+}
+
+.img-cover{
+    max-width: 100%;
+    height: auto;
+}
+
+i{
+    font-style: italic;
+}
+
+b{
+    font-weight: bold;
+}
+
+p.paragraph, p.opening-paragraph{
+    font-family: var(--font-paragraph);
+    font-size: 1.3em;
+    color: var(--colour-paragraph);
+    margin-bottom: 1.2em;
+}
+
+p.opening-paragraph{
+    margin: 2em;
+}
+
+h1.chapter-title{
+    font-family: var(--font-title);
+    text-align: center;
+    color: var(--colour-title);
+}
+
+p.callout{
+    font-family: var(--font-chamada);
+    font-size: 1.3em;
+    background-color: orange;
+    padding: 1em 1.2em;
+    font-weight: bold;
+}
+
+.btn-mode {
+    font-size: 1.4rem;
+    background: none;
+    cursor: pointer;
+    background-color: var(--colour-button-border);
+    line-height: 1;
+    padding: 0.8em;
+    border-radius: 12px;
+}
+
+#mode-toggle {
+    text-align: center;
+}
+
+#call-to-action{
+    padding-bottom: 2em;
+}
+
+#call-to-action div{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.3em 0;
+    background-color: var(--colour-button-comprar);
+    border-radius: 12px;
+    font-family: var(--font-title);
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 661px) {
+    main{
+        max-width: 660px;
+        border: 1px solid white;
+        margin: 0.8em auto;
+    }
+    p{
+        margin: 1.4em;
+    }
+    h1.chapter-title{
+        font-size: 2.2em;
+        margin: 1em;
+        margin-top: 2em;
+    }
+    #mode-toggle{
+        margin-top: 1.3em;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    p{
+        margin: 0.6em;
+    }
+    h1.chapter-title{
+        font-size: 1.8em;
+        margin: 0.6em;
+        margin-top: 2em;
+    }
+    #mode-toggle{
+        margin-top: 1em;
+        margin-bottom: 1.3em;
+    }
+}
+
+
+
