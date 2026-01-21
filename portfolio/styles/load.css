@@ -1,0 +1,146 @@
+html{
+    background-color: var(--color-html-background);
+}
+
+header{
+    width: 100%;
+    height: 56px;
+    background-color: var(--color-box-fill);
+}
+
+.logo-slogan figure {
+    height: 42px; /* Define uma altura fixa para o container da logo */
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.header-container figure img {
+    height: 100%; /* Agora ele ocupa 100% dos 40px do figure */
+    width: auto;
+    display: block;
+}
+
+.header-container figure img {
+    filter: brightness(0) invert(1); /* Torna o SVG branco */
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.logo-slogan{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 12px;
+}
+.header-container nav{
+    margin-right: 34px;
+}
+
+.header-container nav a{
+    text-decoration: none;
+    color: var(--color-links-normal);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    margin-left: 16px;
+}
+.header-container nav a:hover{
+    transition: color 0.3s ease;
+    color: var(--color-links-hover);
+}
+
+.slogan{
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    font-style: italic;
+    color: var(--color-slogan);
+}
+
+/* Estilo base do botão (escondido no desktop) */
+.mobile-menu-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.mobile-menu-btn span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--color-nav);
+    transition: 0.3s;
+}
+
+a {
+    color: var(--color-links-normal);
+}
+a:hover {
+    transition: color 0.3s ease;
+    color: var(--color-links-hover);
+}
+
+/* --- CONDIÇÕES QUE EXISTEM SOMENTE EM TELAS MAIORES QUE 580P */
+@media screen and (min-width: 801px) {
+    nav ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* --- MODO MOBILE --- */
+@media screen and (max-width: 800px) {
+    .slogan {
+        display: none; /* Esconde o slogan no mobile */
+    }
+
+    .mobile-menu-btn {
+        display: flex; /* Mostra o botão hambúrguer */
+        margin-right: 12px;
+    }
+
+    .nav-menu{
+        position: fixed;
+        top: 56px;
+        right: -100%; /* Escondido fora da tela */
+        width: 60%;
+        height: calc(100vh - 56px);
+        background-color: var(--color-box-fill);
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        transition: 0.4s;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    }
+    .nav-menu ul li{
+        padding: 0.4em;
+        margin-left: 0.8em;
+    }
+
+    .header-container nav{
+        margin-right: 0;
+    }
+
+    .nav-menu.active {
+        right: 0; /* Desliza para dentro da tela */
+    }
+
+    .header-container nav a {
+        margin: 20px 0;
+        font-size: 1.5rem;
+    }
+
+    /* Transformação do botão em "X" quando ativo */
+    .mobile-menu-btn.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
+    .mobile-menu-btn.active span:nth-child(2) { opacity: 0; }
+    .mobile-menu-btn.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -7px); }
+}

@@ -1,0 +1,26 @@
+:root{
+    /* colors */
+    --color-box-borders: #995c00;
+    --color-box-fill: rgb(10, 3, 48);
+
+    --color-html-background: #191820;
+
+    --color-links-normal: rgb(241, 115, 11);
+    --color-links-visited: #503c2a;
+    --color-links-hover: white;
+
+    --color-logo-fill: white;
+    --color-slogan: rgb(241, 115, 11);
+
+    --color-nav: rgb(241, 115, 11);
+
+    --color-titles: white;
+    --color-paragraphs: white;
+
+    --color-buttons: rgb(241, 115, 11);
+
+    /* fonts */
+    --font-primary: 'Google Sans', sans-serif;
+    --font-titles: 'Google Sans', sans-serif;
+    --font-quote: Tangerine, serif;
+}
