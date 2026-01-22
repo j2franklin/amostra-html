@@ -5,7 +5,7 @@ header.innerHTML = `
     <div class="header-container">
         <div class="logo-slogan">
             <figure>
-                <img src="/img/diagraman-logo.svg" alt="Diagraman logo: a design agency creating unique identities for unique ideas" />
+                <img src="img/diagraman-logo.svg" alt="Diagraman logo: a design agency creating unique identities for unique ideas" />
             </figure>
         </div>
         
@@ -19,7 +19,7 @@ header.innerHTML = `
             <ul>
                 <li><a href="../index.html">Início</a></li>
                 <li><a href="../services.html">Serviços</a></li>
-                <li><a href="../about.html">Sobre Nós</a></li>
+                <li><a href="../about.html">Sobre mim</a></li>
                 <li><a href="../contact.html">Contato</a></li>
             </ul>
         </nav>
