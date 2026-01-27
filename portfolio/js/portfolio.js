@@ -1,6 +1,19 @@
 const portfolio = {
     editorial: [
         {
+            title: "A revolução dos bichos",
+            folder: "img/editorial/a-revolucao-dos-bichos/",
+            cover: "cover.jpg",
+            images: [
+                "exposition.jpg",
+                "folha-rosto.jpg",
+                "pagina-1.jpg",
+                "pagina-2.jpg",
+                "pagina-3.jpg"
+            ]
+        },
+        
+        {
             title: "À Deriva",
             folder: "img/editorial/a-deriva/",
             cover: "cover.jpg",
