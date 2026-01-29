@@ -18,12 +18,11 @@ const portfolio = {
             folder: "img/editorial/a-deriva/",
             cover: "cover.jpg",
             images: [
-                "deriva-capa-aberta.jpg",
-                "ebook-capa.jpg",
-                "ebook-pag10.jpg",
-                "ebook-pag37.jpg",
-                "ebook-toc-contextual.jpg",
-                "ebook-toc-externo.jpg",
+                "exposition.jpg",
+                "folha-rosto.jpg",
+                "pagina-1.jpg",
+                "pagina-2.jpg",
+                "pagina-3.jpg"
             ]
         },
 
@@ -38,6 +37,19 @@ const portfolio = {
                 "pag05.jpg",
                 "pag06.jpg",
                 "pag07.jpg"
+            ]
+        },
+
+        {
+            title: "O que liga a gente ao outro?",
+            folder: "img/editorial/o-que-liga-a-gente-ao-outro/",
+            cover: "cover.jpg",
+            images: [
+                "exposition.jpg",
+                "folha-rosto.jpg",
+                "pagina-1.jpg",
+                "pagina-2.jpg",
+                "pagina-3.jpg"
             ]
         },
 
