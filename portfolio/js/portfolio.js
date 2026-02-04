@@ -58,10 +58,11 @@ const portfolio = {
             folder: "img/editorial/scamonis/",
             cover: "cover.jpg",
             images: [
-                "pag01.jpg",
-                "pag03.jpg",
-                "pag04.jpg",
-                "pag05.jpg"
+                "exposition.jpg",
+                "folha-rosto.jpg",
+                "pagina-1.jpg",
+                "pagina-2.jpg",
+                "pagina-3.jpg"
             ]
         },
 
@@ -70,10 +71,11 @@ const portfolio = {
             folder: "img/editorial/contar-estrelas-no-ceu/",
             cover: "cover.jpg",
             images: [
-                "pag01.jpg",
-                "pag02.jpg",
-                "pag03.jpg",
-                "pag04.jpg"
+                "exposition.jpg",
+                "folha-rosto.jpg",
+                "pagina-1.jpg",
+                "pagina-2.jpg",
+                "pagina-3.jpg"
             ]
         }
     ],

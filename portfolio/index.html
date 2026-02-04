@@ -7,13 +7,16 @@
 
     <!-- global styles -->
     <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/variables-day.css">
+    <link id="theme-variables" rel="stylesheet" href="styles/variables-day.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/load.css">
     <link rel="stylesheet" href="styles/css.css">
 </head>
 <body>
     <header></header>
+
+    <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
+
     <main>
 
         <section id="sec-quote">
@@ -52,8 +55,11 @@
         <div id="thumbnails" class="thumbnails"></div>
     </div>
 
+    <footer></footer>
+
 </body>
 <script src="js/load.js"></script>
+<script src="js/theme.js"></script>
 <script src="js/portfolio.js"></script>
 <script src="js/grid.js"></script>
 <script src="js/lightbox.js"></script>

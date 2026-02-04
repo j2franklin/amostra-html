@@ -26,6 +26,15 @@ header.innerHTML = `
     </div>
 `;
 
+// load footer
+const footer = document.querySelector('footer');
+footer.innerHTML = `
+    <div class="footer-container">
+        <p>&copy; 2026 Diagraman. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Diagraman.</p>
+    </div>
+`;
+
 // Lógica para abrir/fechar o menu no mobile
 const btn = document.querySelector('.mobile-menu-btn');
 const nav = document.querySelector('.nav-menu');
