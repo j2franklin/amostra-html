@@ -56,3 +56,11 @@
     font-weight: bold;
     font-style: normal;
 }
+
+/* SOCIAL MEDIA */
+@font-face {
+    font-family: 'Social Media';
+    src: url('../fonts/SocialMedia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
