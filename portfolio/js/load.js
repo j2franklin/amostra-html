@@ -17,8 +17,8 @@ header.innerHTML = `
 
         <nav class="nav-menu">
             <ul>
-                <li><a href="/index.html">Início</a></li>
-                <li><a href="/curriculo.html">Currículo</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
             </ul>
         </nav>
     </div>
