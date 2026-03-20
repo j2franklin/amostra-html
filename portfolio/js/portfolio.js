@@ -69,7 +69,7 @@ const portfolio = {
         {
             title: "Contar estrelas do no céu da rugas no dedo?",
             folder: "img/editorial/contar-estrelas-no-ceu/",
-            cover: "cover.jpg",
+            cover: "cover.JPG",
             images: [
                 "exposition.jpg",
                 "folha-rosto.jpg",
